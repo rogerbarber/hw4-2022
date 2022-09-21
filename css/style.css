@@ -142,7 +142,7 @@ div.skip a:focus {
 first div in the grid  and place it in the grid. */
 div.overview {
   grid-column: 1 / -1;
-  background-image: url("images/header.jpg");
+  background-image: url("/images/header.jpg");
 }
 
 
@@ -228,7 +228,7 @@ header>nav {
 }
 
   /* Steps 11 and 12: Update the grid-column property of the grid's children (where-needed)*/
-.about, .clients, .method-image, .contact {
+.about, .clients, .method-image, .contact-image {
   grid-column: 3 / span 2;
 }
 .method, .contact, .about-image, .clients-image {
