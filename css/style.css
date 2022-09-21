@@ -149,25 +149,23 @@ div:first-child {
 
 /* Steps 6 and 7: Write the selector/rule properties to add place the next elements in the next
  four rows in the grid. */
-
+ .about, .method, .clients, .contact {
+   grid-column: 2 / span 1;
+}
 
  .about {
-  grid-column: 2 / span 1;
   grid-row: 2
  }
 
  .method {
-  grid-column: 2 / span 1;
   grid-row: 3;
  }
 
  .clients {
-  grid-column: 2 / span 1;
   grid-row: 4
  }
 
  .contact {
-  grid-column: 2 / span 1;
   grid-row: 5
  }
 
@@ -177,23 +175,24 @@ div:first-child {
   z-index: -1;
  }
 
-.about-image {
+.about-image, .method-image, .clients-image, .contact-image {
   grid-column: 1 / -1;
+}
+
+
+.about-image {
   grid-row: 2
 }
 
 .method-image {
-  grid-column: 1 / -1;
   grid-row: 3
 }
 
 .clients-image {
-  grid-column: 1 / -1;
   grid-row: 4
 }
 
 .contact-image {
-  grid-column: 1 / -1;
   grid-row: 5
 }
 
