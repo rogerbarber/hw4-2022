@@ -140,7 +140,7 @@ div.skip a:focus {
 
 /* Step 5: Write selector/rule property to add the background image to the 
 first div in the grid  and place it in the grid. */
-div.overview {
+div:first-child {
   grid-column: 1 / -1;
   background-image: url("../images/header.jpg");
 }
